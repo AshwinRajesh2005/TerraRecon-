@@ -1,0 +1,24 @@
+# Motor and Sensor Pins
+MOTOR_LEFT_FORWARD = 17
+MOTOR_LEFT_BACKWARD = 27
+MOTOR_RIGHT_FORWARD = 22
+MOTOR_RIGHT_BACKWARD = 23
+MOTOR_LEFT_ENABLE = 18
+MOTOR_RIGHT_ENABLE = 24
+ULTRASONIC_TRIG = 25
+ULTRASONIC_ECHO = 8
+
+# Motor Control Parameters
+MOTOR_SPEED = 0.5
+TURN_DURATION_S = 0.5
+OBSTACLE_DISTANCE_THRESHOLD_CM = 30
+
+# Camera and Vision Parameters
+CAMERA_RESOLUTION = (640, 480)
+DNN_MODEL_PROTOTXT = "models/dnn_prototxt.txt"
+DNN_MODEL_CAFFEMODEL = "models/dnn_caffemodel.caffemodel"
+FACE_DETECTION_MODEL = "cnn"
+
+# Database and Alert Settings
+DATABASE_PATH = "data/database.sqlite"
+ALERT_APP_URL = "http://YOUR_ALERT_APP_IP:PORT/alert"

@@ -1,0 +1,23 @@
+# Placeholder for dnn_prototxt.txt
+# This file should contain the Caffe model architecture definition (e.g., for MobileNet-SSD or YOLO).
+# The actual .prototxt file is not provided in the project document.
+
+# Instructions to obtain this file:
+# 1. Download a pre-trained model compatible with OpenCV's DNN module, such as MobileNet-SSD.
+#    - Example source: https://github.com/opencv/opencv_extra/tree/master/testdata/dnn
+#    - Common file: `MobileNetSSD_deploy.prototxt`
+# 2. Rename the downloaded .prototxt file to `dnn_prototxt.txt` and place it in the `models/` directory.
+# 3. Ensure the corresponding .caffemodel file (dnn_caffemodel.caffemodel) matches this architecture.
+# 4. Update `src/config.py` if the filename differs.
+
+# Example structure (for reference, not functional without actual content):
+# name: "MobileNet-SSD"
+# layer {
+#   name: "data"
+#   type: "Input"
+#   top: "data"
+#   input_param { shape: { dim: 1 dim: 3 dim: 300 dim: 300 } }
+# }
+# ... (additional layers for convolution, detection, etc.)
+
+# Note: Replace this placeholder with the actual .prototxt file for the model used in TerraRecon (e.g., MobileNet-SSD or YOLOv3).

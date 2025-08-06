@@ -1,0 +1,13 @@
+# Placeholder for dnn_caffemodel.caffemodel
+# This file should contain the trained weights for the Caffe model defined in dnn_prototxt.txt.
+# The actual .caffemodel file is not provided in the project document.
+
+# Instructions to obtain this file:
+# 1. Download the pre-trained weights corresponding to the .prototxt file (e.g., MobileNet-SSD or YOLO).
+#    - Example source: https://github.com/opencv/opencv_extra/tree/master/testdata/dnn
+#    - Common file: `MobileNetSSD_deploy.caffemodel`
+# 2. Rename the downloaded .caffemodel file to `dnn_caffemodel.caffemodel` and place it in the `models/` directory.
+# 3. Ensure it matches the architecture defined in `dnn_prototxt.txt`.
+# 4. Update `src/config.py` if the filename differs.
+
+# Note: This is a binary file and cannot be edited directly. Replace this placeholder with the actual .caffemodel file for the model used in TerraRecon.
