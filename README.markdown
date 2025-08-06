@@ -1,8 +1,5 @@
 # TerraRecon: Autonomous Military Surveillance Rover
 
-<p align="center">
-  <img src="images/terracrecon_rover.jpg" alt="TerraRecon Rover" width="600">
-</p>
 
 **TerraRecon** is a cutting-edge autonomous surveillance rover engineered to transform military and defense operations. Developed as a Bachelor of Technology project at SRM Institute of Science and Technology, Ramapuram, TerraRecon integrates advanced artificial intelligence, robust RF communication, and a terrain-adaptive chassis to deliver real-time threat detection, precise environment mapping, and autonomous navigation. Designed for critical applications such as border security, perimeter monitoring, and tactical patrolling, it minimizes human risk while maximizing operational efficiency through a scalable, energy-efficient platform.
 
@@ -41,7 +38,7 @@ This project showcases the potential of AI and robotics to revolutionize defense
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/TerraRecon.git
+   git clone https://github.com/ashwinrajesh2005/TerraRecon.git
    cd TerraRecon
    ```
 
@@ -175,7 +172,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## Authors
 
 - Developed by students at SRM Institute of Science and Technology, Ramapuram.
-- Contact: [Insert contact email or GitHub repository link, e.g., https://github.com/yourusername/TerraRecon].
+- Contact: https://github.com/ashwinrajesh2005/TerraRecon.
 
 ## Acknowledgments
 
